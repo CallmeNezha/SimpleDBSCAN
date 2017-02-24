@@ -1,9 +1,11 @@
 # SimpleDBSCAN
-A head only DBSCAN implementation (kdtree requires one cpp)
+A head only [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) implementation (kdtree requires one cpp)
 
 This is a C++ implementation of DBSCAN (Density-based spatial clustering of applications with noise) algorithm.
 It has been tested and used in enterprise-level project.
 Easy to use, light-weight to include.
+
+![DBSCAN](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/DBSCAN-density-data.svg/330px-DBSCAN-density-data.svg.png)
 
 All you should write is:
 ```cpp

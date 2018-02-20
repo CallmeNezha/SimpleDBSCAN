@@ -30,7 +30,7 @@
 #include "kdtree.h"
 #endif
 
-
+typedef unsigned int uint;
 
 
 //! type T must be a vector-like container and MUST SUPPORT operator[] for iteration
@@ -38,7 +38,7 @@
 template<typename T, typename Float>
 class DBSCAN final {
 
-    typedef unsigned int uint;
+    
 
     enum ERROR_TYPE {
         SUCCESS = 0
@@ -125,7 +125,7 @@ int DBSCAN<T, Float>::Run(
     this->_minpts = min;
     this->_data = V;
     this->_disfunc = disfunc;
-    this->_epsilon = std::abs(eps);
+    this->_epsilon = eps;
     this->_datadim = dim;
 
 #if BRUTEFORCE

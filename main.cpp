@@ -2,11 +2,9 @@
 #include <vector>
 
 struct vec4f {
-    float   x
-    , float y
-    , float z
-    , float d
-}
+    float data[4];
+    float operator[](int idx) const { return data[idx]; }
+};
 
 int main() {
 

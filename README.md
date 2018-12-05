@@ -1,5 +1,5 @@
 # SimpleDBSCAN
-A head only [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) implementation (kdtree requires one cpp)
+A head only [DBSCAN](https://en.wikipedia.org/wiki/DBSCAN) implementation (optional kdtree requires one cpp for boosting)
 
 This is a C++ implementation of DBSCAN (Density-based spatial clustering of applications with noise) algorithm.
 It has been tested and used in enterprise-level project.
@@ -7,7 +7,7 @@ Easy to use, light-weight to include.
 
 ![DBSCAN](https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/DBSCAN-density-data.svg/330px-DBSCAN-density-data.svg.png)
 
-All you should write is:
+All you must write is really simple:
 ```cpp
 #include "dbscan.h"
 #include <vector>
@@ -53,3 +53,8 @@ int main() {
 
 }
 ```
+
+[1] https://en.wikipedia.org/wiki/DBSCAN
+[2] https://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html#sphx-glr-auto-examples-cluster-plot-dbscan-py
+
+There is no license here, hope you like it :)

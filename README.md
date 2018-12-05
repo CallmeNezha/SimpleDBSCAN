@@ -55,6 +55,7 @@ int main() {
 ```
 
 [1] https://en.wikipedia.org/wiki/DBSCAN
+
 [2] https://scikit-learn.org/stable/auto_examples/cluster/plot_dbscan.html#sphx-glr-auto-examples-cluster-plot-dbscan-py
 
 There is no license here, hope you like it :)
